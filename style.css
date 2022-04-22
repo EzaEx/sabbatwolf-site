@@ -1,3 +1,9 @@
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+
 body {
     height: 100vh;
     text-align: center;
@@ -5,10 +11,7 @@ body {
     color: white;
     word-wrap: break-word;
 
-    transition: height 1s ease;
-    -webkit-transition: height 1s ease;
-    -moz-transition: height 1s ease;
-    -o-transition: height 1s ease;
+    overflow-y: scroll;
 }
 
 
