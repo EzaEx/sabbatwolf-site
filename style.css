@@ -1,7 +1,7 @@
 body {
     background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url("assets/bg.jpg");
     background-color: #191919;
-    background-position: center, center;
+    background-position: top, center;
     background-size:     cover;
     background-repeat:   no-repeat;
     background-attachment: fixed;
@@ -10,6 +10,7 @@ body {
     font-family: 'Special Elite', monospace;
     color: white;
 
+    word-wrap: break-word;
   }
 
 #logo {
@@ -32,7 +33,14 @@ p {
 
 a {
     color: white;
+    text-decoration-thickness: 0.075em;
 }
+
+
+a:hover {
+    color: rgb(108, 108, 108);
+}
+
 
 hr {
     width: 70vw;
