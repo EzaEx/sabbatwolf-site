@@ -1,0 +1,42 @@
+body {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url("assets/bg.jpg");
+    background-color: #191919;
+    background-position: center, center;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+    font-family: 'Special Elite', monospace;
+    color: white;
+
+  }
+
+#logo {
+    margin-top: 3vh;
+    max-width: 80vw;
+    max-height: 50vh;
+}
+
+
+h1, h2 {
+    font-weight: 100;
+}
+
+
+p {
+    font-size: larger;
+}
+
+
+a {
+    color: white;
+}
+
+hr {
+    width: 70vw;
+    max-width: 700px;
+    background-color: white;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
