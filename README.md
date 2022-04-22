@@ -1,5 +1,5 @@
 # sabbat_wolf
 The homepage of doom-metal band Sabbat Wolf.
 
-The site is a simple HTML/CSS static-webpage, hosted at [sabbatwolf.com](www.sabbatwolf.com).
+The site is a simple HTML/CSS static-webpage, hosted at [sabbatwolf.com](https://sabbatwolf.com/).
 The page acts as a portal to the band's various social platforms.
