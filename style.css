@@ -1,9 +1,14 @@
 body {
+    height: 100vh;
     text-align: center;
     font-family: 'Special Elite', monospace;
     color: white;
-
     word-wrap: break-word;
+
+    transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
 }
 
 
