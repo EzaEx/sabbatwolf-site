@@ -90,7 +90,6 @@ ul {
   padding: 0;
   overflow: hidden;
   font-size: 1.7em;
-    
   }
   
   
@@ -101,8 +100,8 @@ ul {
   li a {
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: underline;
+    padding: 0.4em;
   }
 
   .bios img {
@@ -130,4 +129,5 @@ ul {
   p.bios {
     padding-left: 10vw;
     padding-right: 10vw;
+    font-size: 0.3em;
   }
