@@ -25,7 +25,7 @@ body:before {
     height: 100%;
     z-index: -10;
 
-    background-image: radial-gradient(rgba(0, 0, 24, 0.6), rgba(0, 0, 0, 1)), url("assets/bg.jpg");
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 24, 0.6)), url("assets/bg.jpg");
     background-color: #191919;
     background-position: center, center;
     background-size: cover;
@@ -45,9 +45,15 @@ h1 {
     font-size: 3em;
 }
 
+h3 {
+    font-weight: 100;
+    font-size: 2.4em;
+}
+
 
 p {
     font-size: 1.7em;
+    line-height: 1.2em;
 }
 
 
@@ -61,11 +67,67 @@ a:hover {
     color: rgb(108, 108, 108);
 }
 
+.active a {
+    color: rgb(255, 108, 108);
+}
 
 hr {
     width: 70vw;
-    max-width: 700px;
+    max-width: 120vh;
     background-color: white;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
+    margin-bottom: 7vh;
+    margin-top: 7vh;
 }
+
+.nav hr {
+    margin-bottom: 2.5vh;
+    margin-top: 2vh;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 1.7em;
+    
+  }
+  
+  
+  li {
+    display: inline;
+  }
+
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+  }
+
+  .bios img {
+    height: 50vh;
+    max-width: 90vw;
+    border-style: solid;
+    border-width: 0.3em;
+    border-color: black;
+    line-height: 0;
+    margin-top: -1em;
+  }
+
+
+  img.home {
+    height: 50vh;
+    max-width: 90vw;
+    border-style: solid;
+    border-width: 0.3em;
+    border-color: black;
+    line-height: 0;
+    margin-top: -1em;
+  }
+
+
+  p.bios {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
