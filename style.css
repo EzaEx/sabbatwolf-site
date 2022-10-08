@@ -59,8 +59,12 @@ p {
 
 
 a {
-    color: white;
+    color: rgb(124, 176, 255);
     text-decoration-thickness: 0.075em;
+}
+
+.foot a {
+  color: white;
 }
 
 
@@ -117,7 +121,7 @@ ul {
 
 
   img.home {
-    height: 50vh;
+    max-height: 50vh;
     max-width: 90vw;
     border-style: solid;
     border-width: 0.3em;
